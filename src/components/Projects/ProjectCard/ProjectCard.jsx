@@ -10,6 +10,15 @@ const ProjectCard = ({ details }) => {
           <li key={item}>{item}</li>
         ))}
       </ul>
+      {details.url ? (
+        <div className="link-container">
+          <a className="project-link" href={details.url} target="_blank">
+            Live demo
+          </a>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .project-card {
-  min-height: 370px;
+  min-height: 400px;
   background: #130f2a;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
@@ -37,9 +37,18 @@
   left: -1.3rem;
   top: 0.35rem;
 }
+
+.link-container {
+  text-align: center;
+}
+
+.project-link {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
 @media (max-width: 768px) {
   .project-card {
-    min-height: 350px;
+    min-height: 380px;
     margin: 0 20px 0 20px;
   }
   .project-card h6 {
@@ -51,13 +60,16 @@
 }
 @media (max-width: 600px) {
   .project-card {
-    min-height: 360px;
+    min-height: 370px;
     margin: 0;
   }
   .project-card h6 {
     font-size: 0.8rem;
   }
   .project-card ul li {
+    font-size: 0.6rem;
+  }
+  .project-link {
     font-size: 0.6rem;
   }
 }

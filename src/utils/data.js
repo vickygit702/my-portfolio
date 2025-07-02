@@ -42,7 +42,7 @@ export const SKILLS = [
 export const PROJECT_DETAILS = [
   {
     title: "Domestic Services Web Application (MERN Stack)",
-    date: "Mar 2025- May 2025",
+    date: "Feb 2025 - May 2025",
     project_details: [
       "Developed a full-stack solution for connecting users with local service providers using React, Node.js, Express, and MongoDB",
       "Implemented JWT authentication with role-based access control for users and service providers",
@@ -50,27 +50,27 @@ export const PROJECT_DETAILS = [
       "Integrated Stripe for secure payment processing and Twilio for real-time SMS notifications",
       "Optimized application performance, reducing API response times by 40% through query optimization",
     ],
+    url: "https://domestic-services-frontend.onrender.com",
   },
   {
-    title: "Digital Marketplace Platform (Upcoming Project)",
-    date: "Planned Development: 2025",
+    title: "Social Media Web Application (MERN Stack)",
+    date: "Dec 2024 - Jan 2025",
     project_details: [
-      "Planning to develop a multi-vendor e-commerce platform with vendor dashboards and analytics",
-      "Will implement advanced search functionality with AI-powered product recommendations",
-      "Designing architecture for scalable microservices to handle high-volume transactions",
-      "Planning to integrate blockchain technology for secure transactions and smart contracts",
-      "Will include features for user reviews, dispute resolution, and escrow payment systems",
+      "Developed a social media platform allowing users to create posts, like, and comment in real-time",
+      "Implemented JWT-based authentication and authorization for secure user access",
+      "Used MongoDB for storing user profiles, posts, likes, and comment data efficiently",
+      "Integrated Redux for state management and handled optimistic UI updates",
+      "Designed responsive UI using React with routing and protected routes for better navigation experience",
     ],
   },
   {
     title: "Hotel Management System (Java Console Application)",
-    date: "Dec 2024 - Jan 2025",
+    date: "Feb 2025",
     project_details: [
       "Developed a comprehensive console-based hotel management system using core Java",
       "Implemented room booking system with availability tracking and dynamic pricing",
-      "Created food ordering module with menu management and kitchen ticket generation",
+      "Created food ordering module with menu management.",
       "Designed automated billing system that calculates total costs including room charges and food orders",
-      "Added reporting features for management to analyze occupancy rates and revenue streams",
     ],
   },
 ];
