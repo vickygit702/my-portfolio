@@ -54,7 +54,7 @@ export const PROJECT_DETAILS = [
   },
   {
     title: "Social Media Web Application (MERN Stack)",
-    date: "Dec 2024 - Jan 2025",
+    date: "Jun 2025",
     project_details: [
       "Developed a social media platform allowing users to create posts, like, and comment in real-time",
       "Implemented JWT-based authentication and authorization for secure user access",
