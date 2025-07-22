@@ -70,5 +70,6 @@ export const PROJECT_DETAILS = [
       "Built a full-stack patient/caretaker dashboard using React (Vite + TypeScript) and Redux for state management.",
       "Featuring authentication (Supabase), dynamic medication lists (CRUD operations), and a calendar view to track medication adherence with visual markers.",
     ],
+    url: "https://medi-care-project.vercel.app",
   },
 ];
