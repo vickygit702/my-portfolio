@@ -54,7 +54,7 @@ export const PROJECT_DETAILS = [
   },
   {
     title: "Social Media Web Application (MERN Stack)",
-    date: "Jun 2025",
+    date: "July 2025 - Present",
     project_details: [
       "Developed a social media platform allowing users to create posts, like, and comment in real-time",
       "Implemented JWT-based authentication and authorization for secure user access",
@@ -64,13 +64,11 @@ export const PROJECT_DETAILS = [
     ],
   },
   {
-    title: "Hotel Management System (Java Console Application)",
-    date: "Feb 2025",
+    title: "Medi-Care Web Application (React + Redux)",
+    date: "July 2025",
     project_details: [
-      "Developed a comprehensive console-based hotel management system using core Java",
-      "Implemented room booking system with availability tracking and dynamic pricing",
-      "Created food ordering module with menu management.",
-      "Designed automated billing system that calculates total costs including room charges and food orders",
+      "Built a full-stack patient/caretaker dashboard using React (Vite + TypeScript) and Redux for state management.",
+      "Featuring authentication (Supabase), dynamic medication lists (CRUD operations), and a calendar view to track medication adherence with visual markers.",
     ],
   },
 ];
